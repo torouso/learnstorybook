@@ -27,14 +27,15 @@ const APPEARANCES = {
   OUTLINE: 'outline',
 };
 
+
 const SIZES = {
-  SMALL: 'small',
+  SMALL: 'small', 
   MEDIUM: 'medium',
 };
 
 const StyledButton = styled.button`
   border: 0;
-  border-radius: 3em;
+  border-radius: .5em;
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
